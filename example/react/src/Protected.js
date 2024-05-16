@@ -7,7 +7,7 @@ export default function Protected() {
     <div>
       <h3>Protected Page</h3>
       You are logged in as <b>{user.email}</b>
-      window.location.replace("https://los-8b.netlify.app")
+      window.location.href = "https://los-8b.netlify.app"
     </div>
   );
 }
